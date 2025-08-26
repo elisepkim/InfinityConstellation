@@ -1,0 +1,38 @@
+# MassGen v0.0.5 configuration
+backend:
+  orchestrator: "massgen"
+  version: "0.0.5"
+  database: "postgresql"
+  verbosity: ${VERBOSITY}
+
+models:
+  - provider: "openai"
+    model: "gpt-5"
+    key: ${OPENAI_API_KEY}
+  - provider: "anthropic"
+    model: "claude-3-opus"
+    key: ${ANTHROPIC_API_KEY}
+  - provider: "mistral"
+    model: "mistral-large"
+    key: ${MISTRAL_API_KEY}
+  - provider: "google"
+    model: "gemini-pro"
+    key: ${GOOGLE_API_KEY}
+
+tools:
+  tavily:
+    enabled: true
+    key: ${TAVILY_API_KEY}
+  agentql:
+    enabled: true
+    key: ${AGENTQL_API_KEY}
+  jigsawstack:
+    enabled: true
+    key: ${JIGSAWSTACK_API_KEY}
+
+database:
+  host: ${POSTGRES_HOST}
+  port: ${POSTGRES_PORT}
+  user: ${POSTGRES_USER}
+  password: ${POSTGRES_PASSWORD}
+  name: ${POSTGRES_DB}

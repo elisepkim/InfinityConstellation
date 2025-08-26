@@ -1,0 +1,12 @@
+[
+  {
+    "id": "doc1",
+    "title": "Everest Data Intelligence Overview",
+    "content": "Everest Group’s Information & Data Management arm specializes in structured data strategy, RAG pipelines, and intelligent orchestration."
+  },
+  {
+    "id": "doc2",
+    "title": "MassGen Integration Notes",
+    "content": "MassGen orchestrates multiple agents in parallel, with voting and consensus strategies for better reasoning outputs."
+  }
+]

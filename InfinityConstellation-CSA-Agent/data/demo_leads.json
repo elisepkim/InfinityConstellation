@@ -1,0 +1,14 @@
+[
+  {
+    "company": "Acme Corp",
+    "contact": "jane.doe@acmecorp.com",
+    "role": "CTO",
+    "notes": "Interested in RAG pipeline solutions for enterprise analytics."
+  },
+  {
+    "company": "Globex Inc",
+    "contact": "john.smith@globex.com",
+    "role": "Head of AI",
+    "notes": "Exploring MassGen agent orchestration for research acceleration."
+  }
+]
